@@ -1,32 +1,21 @@
-import Grid from '@mui/material/Grid2';
-import './styles/App.css';
 import { useTheme } from '@mui/material';
-import Header from './components/Header';
 import Content from './components/Content';
+import Header from './components/Header';
+import './styles/App.css';
 
 const App = () => {
   const theme = useTheme();
 
   return (
-    <Grid
-      container
-      size={{ xs: 12 }}
-      sx={{
-        margin: 0,
-        padding: 5,
-        minHeight: '100vh',
-        width: '100%',
+    <div
+      style={{
         backgroundColor: theme.palette.background.default,
+        minHeight: '100vh',
       }}
-      direction="column"
     >
-      <Grid>
-        <Header />
-      </Grid>
-      <Grid>
-        <Content />
-      </Grid>
-    </Grid>
+      <Header />
+      <Content />
+    </div>
   );
 };
 

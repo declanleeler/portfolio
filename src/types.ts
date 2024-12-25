@@ -1,3 +1,5 @@
+export type ContentSection = 'About' | 'Work' | 'Contact';
+
 export interface WorkExperience {
   company: string;
   title: string;

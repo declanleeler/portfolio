@@ -15,7 +15,7 @@ const customTheme = createTheme({
     },
     text: {
       primary: '#000000',
-      secondary: '#6c757d',
+      secondary: '#838b91',
     },
   },
   typography: {
@@ -25,17 +25,38 @@ const customTheme = createTheme({
     },
     h1: {
       fontSize: '2rem',
-      fontWeight: 400,
+      fontWeight: 300,
     },
     h2: {
       fontSize: '1.5rem',
-      fontWeight: 300,
+      fontWeight: 200,
     },
     body1: {
       fontSize: '1rem',
       fontWeight: 300,
       textAlign: 'justify',
       lineHeight: 1.8,
+    },
+  },
+  components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          boxShadow: 'none',
+          '&:hover': {
+            boxShadow: 'none',
+          },
+        },
+      },
+    },
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#ffffff',
+          boxShadow: 'none',
+          borderBottom: '1px solid #ddd',
+        },
+      },
     },
   },
 });

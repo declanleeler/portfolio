@@ -15,19 +15,29 @@ const WorkCard: FC<WorkExperience> = ({
     <Card>
       <CardContent>
         <Grid container alignItems="center" spacing={1}>
-          <Avatar
-            alt="Company Logo"
-            src={'vite.svg'}
-            sx={{ width: 40, height: 40 }} // Adjust size of the logo
-          />
-          <Grid>{company}</Grid>
+          <Grid size={1}>
+            <img
+              src={`${company}.png`}
+              alt="Company Logo"
+              style={{
+                width: '50px',
+                height: '50px',
+                objectFit: 'contain',
+              }}
+            />
+          </Grid>
+          <Grid container direction="column" size={11}>
+            <Typography gutterBottom variant="h5" component="div">
+              {title}
+            </Typography>
+            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+              {startDate} - {endDate}
+            </Typography>
+            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+              {description}
+            </Typography>
+          </Grid>
         </Grid>
-        <Typography gutterBottom variant="h5" component="div">
-          {title}
-        </Typography>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          {description}
-        </Typography>
       </CardContent>
     </Card>
   );
