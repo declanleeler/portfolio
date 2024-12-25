@@ -37,7 +37,7 @@ const Header: FC = () => {
         block: 'start',
       });
       if (section === 'about') {
-        window.scrollBy(0, -190);
+        window.scrollBy(0, -900);
       }
     }
   };

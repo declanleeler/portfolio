@@ -5,7 +5,7 @@ import { FC } from 'react';
 
 const Contact: FC = () => {
   return (
-    <Grid container spacing={2} sx={{ alignItems: 'flex-start' }}>
+    <Grid container spacing={2} sx={{ alignItems: 'flex-start' }} pb={3}>
       <Grid size={12}>
         <Typography variant="body1">
           Thank you for taking the time to get to know me. If you'd like to

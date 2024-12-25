@@ -7,17 +7,17 @@ import Work from './Work';
 
 const Content: FC = () => {
   return (
-    <Grid container direction="column" py={2} px={10}>
+    <Grid container direction="column" px={10} spacing={3}>
       <Toolbar />
-      <div id="about">
+      <Grid id="about">
         <About />
-      </div>
-      <div id="work">
+      </Grid>
+      <Grid id="work">
         <Work />
-      </div>
-      <div id="contact">
+      </Grid>
+      <Grid id="contact">
         <Contact />
-      </div>
+      </Grid>
     </Grid>
   );
 };
