@@ -3,31 +3,52 @@
     "company": "DSTA",
     "title": "Software Engineer",
     "startDate": "2023-04",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "skills": []
+    "description": "At Singapore's Defence Science and Technology Agency, I work on developing software solutions to enhance Singapore’s intelligence capabilities. I work as a full-stack developer with a focus on frontend. This role requires close collaboration with other functions, such as designers and data scientists to design and implement features. I was given the opportunity to lead the frontend development for one of the products I am involved in. This allowed me to contribute more to the design of the product, and the selection of tools and frameworks for frontend development and the CI pipeline.",
+    "skills": [
+      "TypeScript",
+      "Express.js",
+      "React",
+      "Python",
+      "FastAPI",
+      "Docker",
+      "OpenSearch",
+      "GitHub Actions",
+      "PyTest",
+      "Jest"
+    ]
   },
   {
     "company": "SAP",
     "title": "Software Developer",
     "startDate": "2022-06",
     "endDate": "2023-03",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "skills": []
+    "description": "After completing a previous internship, I was offered a permanent role which I took. Being a presales team, my role was to build software to wrap and serve the AI models that the data scientists in the team had built, amongst other thought leadership activities. It was an interesting experience where I was exposed to many different challenges. From developing a product inspection MVP to giving university lectures on SAP technologies, there were many learning opportunities.",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "Computer Vision",
+      "IoT",
+      "Arduino",
+      "Python",
+      "Flask",
+      "SAP Business Technology Platform"
+    ]
   },
   {
     "company": "SAP",
     "title": "Data Science Intern",
     "startDate": "2022-01",
     "endDate": "2022-04",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "skills": []
+    "description": "In my last semester in university, I worked on a part-time internship while studying. This came off the back of a successful capstone project from my previous semester with a different SAP department. My team was invited to interview with SAP's Digital Lab and I made it through. I found myself in a semi-familiar environment in a global team that was based all around Asia Pacific and Japan. Here, I was tasked with creating a REST API to serve a speech-to-text model (VOSK) on SAP's Kyma runtime.",
+    "skills": ["Docker", "Kubernetes", "Speech to Text", "Python", "Flask"]
   },
   {
     "company": "Corning",
     "title": "Data Analyst Intern",
     "startDate": "2021-01",
     "endDate": "2021-06",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "skills": []
+    "description": "I was hired into a data analytics team based all around the world, and it was a great experience connecting with people from a diverse set of backgrounds. I had a blend of data analytics and software development tasks. On the data side of the house, I worked on creating and updating PowerBI dashboards and creating an Alteryx ETL pipeline. Yet the achievement I am most proud of was co-leading the development of a web application MVP that automated supplier sourcing efforts. I was responsible for planning, designing, and developing the application. This involved not just a lot of coding, but a lot of talking! From engaging with stakeholders and subject matter experts to dissect the problem and gather requirements, to presenting to senior management to secure buy-in, I learnt that a successful product doesn’t just require good technical skills, but also effective communication skills.",
+    "keyTakeaway": "Neither my internship partner nor I, nor our teams had experience developing software. Faced with many questions, we resorted to searching through the company’s internal portal for colleagues with technical experience. We reached out to several colleagues, of which one replied - a data scientist in New York. As we spoke with her and described our plans, I was struck by her kindness and knowledge as well as the fact that I was conversing with someone halfway across the world! It was a memorable lesson on the powers of collaboration, and how help could come from the most unexpected places.",
+    "skills": ["Python", "Flask", "REST API", "PowerBI", "React", "JavaScript"]
   }
 ]
