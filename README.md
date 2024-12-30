@@ -18,4 +18,3 @@ You can check out the live version of my portfolio at [https://declanleeler.gith
 - **React** - A JavaScript library for building user interfaces
 - **TypeScript** - A statically typed superset of JavaScript
 - **Vite** - A fast, modern build tool
-- \*\*Material
