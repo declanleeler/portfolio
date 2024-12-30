@@ -18,19 +18,18 @@ const Work: FC = () => {
           I've been fortunate enough to have spent time in different industries
           and global teams. This diverse environment has exposed me to many
           different cultures and walks of life, granting me a greater
-          appreciation of different perspectives and values. It has also
-          sharpened my understanding of collaboration and communication. Most of
-          my work experience has centered around building products that wrap up
-          AI services to enhance productivity.
+          appreciation of different perspectives, collaboration and
+          communication. Most of my work experience has centered around building
+          products that utilize AI to support their users.
         </Typography>
       </Grid>
       {experiences.map((experience) => (
-        <Grid>
+        <Grid key={experience.company + experience.startDate}>
           <WorkCard
-            key={experience.company + experience.startDate}
             company={experience.company}
             title={experience.title}
             description={experience.description}
+            keyTakeaway={experience.keyTakeaway}
             startDate={experience.startDate}
             endDate={experience.endDate}
             skills={experience.skills}
