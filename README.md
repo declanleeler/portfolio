@@ -6,11 +6,6 @@ Welcome to my portfolio website repository! This site showcases my professional 
 
 - [About](#about)
 - [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Setup Instructions](#setup-instructions)
-- [Deployment](#deployment)
-- [License](#license)
-- [Contact](#contact)
 
 ## About
 
