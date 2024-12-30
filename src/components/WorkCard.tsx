@@ -15,8 +15,13 @@ const WorkCard: FC<WorkExperience> = ({
   return (
     <Card>
       <CardContent>
-        <Grid container alignItems="center" spacing={1}>
-          <Grid size={1}>
+        <Grid
+          container
+          alignItems="center"
+          spacing={1}
+          direction={{ xs: 'column', md: 'row' }}
+        >
+          <Grid size={{ md: 1 }}>
             <img
               src={`${company}.png`}
               alt="Company Logo"
@@ -27,7 +32,7 @@ const WorkCard: FC<WorkExperience> = ({
               }}
             />
           </Grid>
-          <Grid container direction="column" size={11}>
+          <Grid container direction="column" size={{ md: 11 }}>
             <Typography gutterBottom variant="h5" component="div">
               {title} | {company}
             </Typography>

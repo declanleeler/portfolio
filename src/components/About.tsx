@@ -4,16 +4,16 @@ import Grid from '@mui/material/Grid2';
 
 const About: FC = () => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={1} direction={{ xs: 'column', md: 'row' }}>
       <Grid size={12}>
         <Typography variant="h1">About me</Typography>
       </Grid>
       <Grid
-        size={3}
+        size={{ xs: 12, md: 3 }}
         sx={{
           display: 'flex',
-          justifyContent: 'flex-start',
-          alignItems: 'flex-start',
+          justifyContent: { xs: 'center', md: 'flex-start' },
+          alignItems: { xs: 'center', md: 'flex-start' },
         }}
       >
         <img
@@ -27,7 +27,7 @@ const About: FC = () => {
           }}
         />
       </Grid>
-      <Grid size={9}>
+      <Grid size={{ xs: 12, md: 9 }}>
         <Typography variant="h2" sx={{ paddingBottom: 3 }}>
           I'm a <strong>software engineer </strong>with a background in{' '}
           <strong>data science</strong> and <strong>data analytics</strong>.
