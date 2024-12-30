@@ -1,4 +1,4 @@
-import { Avatar, Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { FC } from 'react';
 import { WorkExperience } from '../types';
@@ -9,7 +9,6 @@ const WorkCard: FC<WorkExperience> = ({
   description,
   startDate,
   endDate,
-  skills,
 }) => {
   return (
     <Card>
