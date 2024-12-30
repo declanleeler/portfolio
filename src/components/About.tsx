@@ -36,7 +36,7 @@ const About: FC = () => {
           Many years ago, I watched a movie called Moneyball and was fascinated
           by how statistics and computing could revolutionize fields
           traditionally driven by human intuition and experience. Hinge your
-          career's baby steps on a Hollywood movie? Why not! I prompyly enrolled
+          career's baby steps on a Hollywood movie? Why not. I promptly enrolled
           in the National University of Singapore's School of Computing to study
           Business Analytics.
         </Typography>
