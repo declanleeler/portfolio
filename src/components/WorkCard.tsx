@@ -19,7 +19,7 @@ const WorkCard: FC<WorkExperience> = ({
         boxShadow: 'none', // Optional: Remove Card shadow for better blending
       }}
     >
-      <CardContent>
+      <CardContent sx={{ padding: 0 }}>
         <Grid
           container
           alignItems="center"
