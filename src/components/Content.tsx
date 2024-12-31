@@ -17,7 +17,7 @@ const Content: FC<ContentProps> = ({ highlightedSection }) => {
     <Grid
       container
       direction="column"
-      px={10}
+      px={{ xs: 4, md: 10 }}
       spacing={3}
       justifyContent="center"
       alignItems="center"
