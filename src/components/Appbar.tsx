@@ -54,7 +54,7 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
             Declan Lee Ler
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ display: { xs: 'flex' } }}>
             {contentSections.map((section) => (
               <Button
                 key={section}

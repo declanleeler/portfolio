@@ -14,7 +14,14 @@ const Content: FC<ContentProps> = ({ highlightedSection }) => {
     highlightedSection === section ? '#efeeee' : 'transparent';
 
   return (
-    <Grid container direction="column" px={10} spacing={3}>
+    <Grid
+      container
+      direction="column"
+      px={10}
+      spacing={3}
+      justifyContent="center"
+      alignItems="center"
+    >
       <Toolbar />
       <Grid
         id="about"
