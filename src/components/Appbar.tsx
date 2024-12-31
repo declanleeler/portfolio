@@ -49,7 +49,12 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
   return (
     <HideOnScroll>
       <AppBar>
-        <Toolbar>
+        <Toolbar
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+          }}
+        >
           <Typography
             sx={{
               fontSize: {
@@ -61,8 +66,15 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
           >
             DECLAN LEE LER
           </Typography>
-          <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: 'flex' } }}>
+          <Box
+            sx={{
+              display: 'flex',
+              gap: { xs: 0.5, md: 2 },
+              flexWrap: 'wrap',
+              justifyContent: 'flex-start',
+              overflow: 'hidden',
+            }}
+          >
             {contentSections.map((section) => (
               <Button
                 key={section}
@@ -71,8 +83,8 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
                 <Typography
                   sx={{
                     fontSize: {
-                      xs: '1rem',
-                      md: '2rem',
+                      xs: '0.5rem',
+                      md: '1rem',
                     },
                   }}
                 >
