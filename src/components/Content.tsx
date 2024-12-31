@@ -11,7 +11,7 @@ interface ContentProps {
 
 const Content: FC<ContentProps> = ({ highlightedSection }) => {
   const getBackgroundColor = (section: string) =>
-    highlightedSection === section ? '#d3d3d3' : 'transparent';
+    highlightedSection === section ? '#efeeee' : 'transparent';
 
   return (
     <Grid container direction="column" px={10} spacing={3}>
@@ -20,7 +20,7 @@ const Content: FC<ContentProps> = ({ highlightedSection }) => {
         id="about"
         sx={{
           backgroundColor: getBackgroundColor('about'),
-          transition: 'background-color 1s ease-out',
+          transition: 'background-color 0.5s ease-out',
         }}
       >
         <About />
@@ -29,7 +29,7 @@ const Content: FC<ContentProps> = ({ highlightedSection }) => {
         id="work"
         sx={{
           backgroundColor: getBackgroundColor('work'),
-          transition: 'background-color 1s ease-in-out',
+          transition: 'background-color 0.5s ease-in-out',
         }}
       >
         <Work />
@@ -38,7 +38,7 @@ const Content: FC<ContentProps> = ({ highlightedSection }) => {
         id="contact"
         sx={{
           backgroundColor: getBackgroundColor('contact'),
-          transition: 'background-color 1s linear',
+          transition: 'background-color 0.5s linear',
         }}
       >
         <Contact />
