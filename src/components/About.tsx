@@ -33,26 +33,24 @@ const About: FC = () => {
           <strong>data science</strong> and <strong>data analytics</strong>.
         </Typography>
         <Typography variant="body1" sx={{ paddingBottom: 2 }}>
-          Many years ago, I watched a movie called Moneyball and was fascinated
-          by how statistics and computing could revolutionize fields
-          traditionally driven by human intuition and experience. Hinge your
-          career's baby steps on a Hollywood movie? Why not. I promptly enrolled
-          in the National University of Singapore's School of Computing to study
-          Business Analytics.
+          Several years ago, I watched Moneyball and became interested in how
+          statistics and computing could transform fields traditionally driven
+          by human intuition and experience. Motivated by this idea, I enrolled
+          in the Business Analytics program at the National University of
+          Singapore (NUS) under the School of Computing.
         </Typography>
         <Typography variant="body1" sx={{ paddingBottom: 3 }}>
-          2 years later, a new insight dawned on me after I completed an
-          internship. I had lead the development of a software MVP to support
-          the team in sourcing for suppliers and manufacturers. This was my
-          first taste of software engineering and what an experience it was!
-          From requirements gathering, to stakeholder management, to the actual
-          technical development, I enjoyed every step of the way and came to a
-          realization. To me, AI / ML were just a means to an end. What I wanted
-          was to build software products that would deliver value to their
-          users. Today, with the rise and rise of AI, the opportunities are
-          endless. But rather than developing or optimizing models, I wanted to
-          build products, regardless of whether they needed AI or not. Thus
-          began my career as a software engineer.
+          Three years later, during my first internship, I gained a new
+          perspective. Although I joined the data analyst team, my main
+          responsibility was developing a software MVP to help analysts and
+          customers source suppliers and manufacturers. This marked my
+          introduction to software engineering. From gathering requirements to
+          managing stakeholders and handling technical development, I found the
+          process engaging and realized that my focus was on building software
+          products that deliver value to users. While AI and ML are valuable
+          tools, I prefer to leverage existing advancements and create practical
+          applications for them. This led to the start of my career as a
+          software engineer.
         </Typography>
       </Grid>
     </Grid>
