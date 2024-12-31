@@ -50,8 +50,16 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
     <HideOnScroll>
       <AppBar>
         <Toolbar>
-          <Typography variant="h1" component="div">
-            Declan Lee Ler
+          <Typography
+            sx={{
+              fontSize: {
+                xs: '1rem',
+                md: '2rem',
+              },
+              fontWeight: 400,
+            }}
+          >
+            DECLAN LEE LER
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'flex' } }}>
@@ -60,7 +68,16 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
                 key={section}
                 onClick={() => handleScrollToSection(section.toLowerCase())}
               >
-                <Typography>{section}</Typography>
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: '1rem',
+                      md: '2rem',
+                    },
+                  }}
+                >
+                  {section}
+                </Typography>
               </Button>
             ))}
           </Box>
