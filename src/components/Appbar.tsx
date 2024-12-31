@@ -15,7 +15,7 @@ interface HideOnScrollProps {
   children: React.ReactElement;
 }
 
-function HideOnScroll(props: HideOnScrollProps) {
+const HideOnScroll = (props: HideOnScrollProps) => {
   const { children } = props;
   const trigger = useScrollTrigger();
 
@@ -24,21 +24,25 @@ function HideOnScroll(props: HideOnScrollProps) {
       {children ? children : <div />}
     </Slide>
   );
+};
+
+interface AppbarProps {
+  onHighlight: (section: string) => void;
 }
 
-const Header: FC = () => {
+const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
   const contentSections: ContentSection[] = ['About', 'Work', 'Contact'];
-
   const handleScrollToSection = (section: string) => {
     const sectionElement = document.getElementById(section);
     if (sectionElement) {
-      sectionElement.scrollIntoView({
+      const appBarHeight = document.querySelector('header')?.offsetHeight || 0;
+      const elementPosition =
+        sectionElement.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: elementPosition - appBarHeight,
         behavior: 'smooth',
-        block: 'start',
       });
-      if (section === 'about') {
-        window.scrollBy(0, -900);
-      }
+      onHighlight(section);
     }
   };
 
@@ -66,4 +70,4 @@ const Header: FC = () => {
   );
 };
 
-export default Header;
+export default Appbar;

@@ -13,7 +13,12 @@ const WorkCard: FC<WorkExperience> = ({
   skills,
 }) => {
   return (
-    <Card>
+    <Card
+      sx={{
+        backgroundColor: 'transparent', // Transparent background
+        boxShadow: 'none', // Optional: Remove Card shadow for better blending
+      }}
+    >
       <CardContent>
         <Grid
           container

@@ -1,10 +1,21 @@
 import { useTheme } from '@mui/material';
 import Content from './components/Content';
-import Header from './components/Header';
+import Appbar from './components/Appbar';
 import './styles/App.css';
+import { useState } from 'react';
 
 const App = () => {
   const theme = useTheme();
+  const [highlightedSection, setHighlightedSection] = useState<string | null>(
+    null,
+  );
+
+  const handleHighlight = (section: string) => {
+    setHighlightedSection(section);
+    setTimeout(() => {
+      setHighlightedSection(null);
+    }, 4000);
+  };
 
   return (
     <div
@@ -13,8 +24,8 @@ const App = () => {
         minHeight: '100vh',
       }}
     >
-      <Header />
-      <Content />
+      <Appbar onHighlight={handleHighlight} />
+      <Content highlightedSection={highlightedSection} />
     </div>
   );
 };
