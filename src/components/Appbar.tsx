@@ -64,7 +64,7 @@ const Appbar: FC<AppbarProps> = ({ onHighlight }) => {
               fontWeight: 400,
             }}
           >
-            DECLAN LEE LER
+            Declan Lee Ler
           </Typography>
           <Box
             sx={{
