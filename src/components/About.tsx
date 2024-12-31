@@ -40,17 +40,17 @@ const About: FC = () => {
           Singapore (NUS) under the School of Computing.
         </Typography>
         <Typography variant="body1" sx={{ paddingBottom: 3 }}>
-          Three years later, during my first internship, I gained a new
+          Two years later, during my first internship, I gained a new
           perspective. Although I joined the data analyst team, my main
           responsibility was developing a software MVP to help analysts and
           customers source suppliers and manufacturers. This marked my
           introduction to software engineering. From gathering requirements to
           managing stakeholders and handling technical development, I found the
-          process engaging and realized that my focus was on building software
-          products that deliver value to users. While AI and ML are valuable
-          tools, I prefer to leverage existing advancements and create practical
-          applications for them. This led to the start of my career as a
-          software engineer.
+          process engaging and realized that my interest laid in using
+          technology to create meaningful solutions for users. While AI and ML
+          are valuable tools, I wanted to focus on their application rather than
+          development. This led to the start of my career as a software
+          engineer.
         </Typography>
       </Grid>
     </Grid>
