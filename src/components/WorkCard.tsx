@@ -42,7 +42,7 @@ const WorkCard: FC<WorkExperience> = ({
               {title} | {company}
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-              {startDate} - {endDate}
+              {startDate} - {endDate ? endDate : 'now'}
             </Typography>
             <Typography variant="body1">{description}</Typography>
             {keyTakeaway && (
